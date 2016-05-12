@@ -141,7 +141,7 @@
         var rules = '';
         // Because otherwise mocha throws "The operation is insecure."
         try {
-          rules = styleSheets[i].rules || styleSheets[i].cssRules;
+          rules = sheet.rules || sheet.cssRules;
         } catch(e) {}
         return prev.concat(
           [].slice.call(rules).reduce(function(prev, rule) {

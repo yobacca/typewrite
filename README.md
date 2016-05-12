@@ -1,6 +1,6 @@
 # typewrite.js
 
-> A flexible typewriter simulator written in plain Javascript, well tested using Mocha, Chai, Karma and Istanbul. [Demo](http://www.olaf-ennen.de/typewrite)
+> A flexible typewriter simulator written in plain Javascript, well tested using Mocha, Chai, Karma and Istanbul. [Demo](http://olaf-ennen.de/oehome/typewriter/)
 
 ## Install
 

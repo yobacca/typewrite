@@ -170,12 +170,12 @@ typewrite('#type').setDelay(100).type('Lorem ipsum').setDelay(50, false).clear()
 object then(function callback)
 ```
 
-Execute |callback| asynchronously by appending to the queue and return the |typewrite| object.
+Execute function `callback` asynchronously.
 
 #### Example
 
 ```javascript
-typewrite('#type').setDelay(100).type('Lorem ipsum').setDelay(50, false).clear();
+typewrite('#type').type('Lorem ipsum').then(alert.bind(window, 'The end.'));
 ```
 
 ## Development

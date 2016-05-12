@@ -12,7 +12,7 @@ Or download [typewrite.min.js](https://cdn.rawgit.com/yobacca/typewrite/master/j
 
 After that just add the script to your HTML document and start typewriting...
 
-```
+```javascript
 <span id="typewrite"></span>
 
 <script src="js/typewrite.min.js"></script>

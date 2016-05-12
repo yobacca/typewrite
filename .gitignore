@@ -1,4 +1,4 @@
 .DS_Store
-coverage
-index.html
-node_modules
+/coverage
+/index.html
+/node_modules

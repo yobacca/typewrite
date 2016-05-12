@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>typewrite.js</title>
+<meta http-equiv="type" content="text/html; charset=utf-8">
+<style type="text/css">
+  body {
+    text-align: center;
+  }
+  
+  .container {
+    margin-top: 50vh;
+    display: inline-block;
+    font-family: monospace;
+  }
+  
+  .typewrite-cursor{
+    font-weight: 400;
+    opacity: 1;
+    -webkit-animation: blink 0.95s infinite;
+    -moz-animation: blink 0.95s infinite;
+    -ms-animation: blink 0.95s infinite;
+    -o-animation: blink 0.95s infinite;
+    animation: blink 0.95s infinite;
+  }
+
+  @-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <span id="type"></span>
+</div>
+<script src="js/typewrite.min.js"></script>
+<script type="text/javascript">
+typewrite('#type')
+  .setDelay(100, true)
+  .type('lOREM IPSUM ')
+  .setDelay(50, false)
+  .pause(5)
+  .clear()
+  .setDelay(50, true)
+  .type('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.\nSEd ')
+  .setDelay(100, true)
+  .pause(5)
+  .backspace(3)
+  .type('ed diam nonumy eirmod tempor invidunt ')
+  .pause(10)
+  .setDelay(75, true)
+  .type('\nut labore et dolore magna aliquyam erat.');
+</script>
+</body>
+</html>

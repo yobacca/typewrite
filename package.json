@@ -1,6 +1,6 @@
 {
   "name": "typewrite.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A flexible typewriter simulator written in plain Javascript, well tested using Mocha, Chai, Karma and Istanbul - Released under MIT license",
   "main": "typewrite.js",
   "repository": {

@@ -1,6 +1,6 @@
 # typewrite.js
 
-> A flexible typewriter simulator written in plain Javascript, well tested using Mocha, Chai, Karma and Istanbul. [Demo](http://olaf-ennen.de/oehome/typewriter/)
+> A flexible typewriter simulator written in plain Javascript, well tested using Mocha, Chai, Karma and Istanbul. [Demo](http://olaf-ennen.de/oehome/typewrite/)
 
 ## Install
 
@@ -180,18 +180,17 @@ typewrite('#type').type('Lorem ipsum').then(alert.bind(window, 'The end.'));
 
 ## Development
 
-The following gulp tasks are provided:
+The following gulp tasks are provided.
 
-```
-gulp
-```
-or
+### Compress
+
 ```
 gulp compress
 ```
 
 Compress js/typewrite.js and copy to js/typewrite.min.js.
 
+### Test
 
 ```
 gulp test
@@ -234,6 +233,7 @@ gulp test:ie
 
 Execute Mocha/Chai tests once in Internet Explorer using Karma and process code coverage recording using Istanbul.
 
+### TDD
 
 ```
 gulp tdd
